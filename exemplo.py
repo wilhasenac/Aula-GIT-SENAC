@@ -3,6 +3,9 @@ class Produto():
         self.nome = nome
         self.preco = preco
         self.unidade = unidade
+    
+    def exibir(self):
+        print(f'Nome: {self.nome} - Preço: {self.preco}')
 
 
 produto = Produto('Pizza', 5, 'unidade')
