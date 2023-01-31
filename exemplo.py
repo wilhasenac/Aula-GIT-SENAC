@@ -5,6 +5,8 @@ class Produto():
         self.unidade = unidade
 
 
+produto = Produto('Pizza', 5, 'unidade')
+
 quantidade = int(input('Informe a quantidade'))
 print(quantidade)
         
