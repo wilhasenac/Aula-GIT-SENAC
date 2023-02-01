@@ -10,6 +10,8 @@ class Produto():
 
 produto = Produto('Pizza', 5, 'unidade')
 
-quantidade = int(input('Informe a quantidade'))
-print(quantidade)
+produto.exibir()
+
+quantidade = int(input('Informe a quantidade: '))
+
         
